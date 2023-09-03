@@ -77,7 +77,6 @@ class VacancySuperJob(Vacancy, ABC):
         return res
 
     def get_salary(self, vacancy):
-        # print(vacancy, '\n')
         salary_from = vacancy['payment_from']
         salary_to = vacancy['payment_to']
         salary_currency = vacancy['currency']
