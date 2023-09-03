@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 import requests
 import os
-import pprint
 
 
 class WorkingAPI(ABC):
